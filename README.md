@@ -1,7 +1,10 @@
 photoshop-retinize
 ==================
 
-Photoshop retina script (jsx) - generates multiple images from 1 master
+Photoshop retina script (jsx) - generates multiple images from 1 master image
+
+How to use
+----------
 
 These scripts need to be imported in Photoshop to be used as a batch script.
 
@@ -30,10 +33,15 @@ So, consider we have an original file, PRODUCT.jpg, which is 3000x2000 pixels wi
 The script will then generate 6 images:
 
 pdp-PRODUCTNAME-intro-desktop@2x.jpg
+
 pdp-PRODUCTNAME-intro-desktop.jpg
+
 pdp-PRODUCTNAME-intro-tablet@2x.jpg
+
 pdp-PRODUCTNAME-intro-tablet.jpg
+
 pdp-PRODUCTNAME-intro-phone@2x.jpg
+
 pdp-PRODUCTNAME-intro-phone.jpg
 
 each with the size that was defined in the array.
