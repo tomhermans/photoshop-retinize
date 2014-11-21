@@ -17,13 +17,13 @@ We setup an array where we define the target image's prefix, suffix, width and h
 So in this example, we generate 6 images.
 
 // full headers
-var pdp_imageSizes = [
-    ["pdp","intro-desktop@2x","4000", "1480"],
-    ["pdp","intro-desktop","2000", "740"],
-    ["pdp","intro-tablet@2x","4000", "1480"],
-    ["pdp","intro-tablet","2000", "740"],
-    ["pdp","intro-phone@2x","1534", "840"],
-    ["pdp","intro-phone","767", "420"]
+var pdp_imageSizes = [<br>
+    ["pdp","intro-desktop@2x","4000", "1480"],<br>
+    ["pdp","intro-desktop","2000", "740"],<br>
+    ["pdp","intro-tablet@2x","4000", "1480"],<br>
+    ["pdp","intro-tablet","2000", "740"],<br>
+    ["pdp","intro-phone@2x","1534", "840"],<br>
+    ["pdp","intro-phone","767", "420"]<br>
 ]
 
 The original filename will be used in the target filename as well.
