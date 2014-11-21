@@ -34,13 +34,13 @@ So, consider we have an original file, PRODUCT.jpg, which is 3000x2000 pixels wi
 Also: put the array in an order so that largest images will be generated first.
 
 The script will then generate 6 images:
-
-` pdp-PRODUCTNAME-intro-desktop@2x.jpg <br>
-` pdp-PRODUCTNAME-intro-desktop.jpg <br>
-` pdp-PRODUCTNAME-intro-tablet@2x.jpg <br>
-` pdp-PRODUCTNAME-intro-tablet.jpg <br>
-` pdp-PRODUCTNAME-intro-phone@2x.jpg <br>
-` pdp-PRODUCTNAME-intro-phone.jpg <br>
-
+<pre><code>
+* pdp-PRODUCTNAME-intro-desktop@2x.jpg
+* pdp-PRODUCTNAME-intro-desktop.jpg
+* pdp-PRODUCTNAME-intro-tablet@2x.jpg
+* pdp-PRODUCTNAME-intro-tablet.jpg
+* pdp-PRODUCTNAME-intro-phone@2x.jpg
+* pdp-PRODUCTNAME-intro-phone.jpg
+</code></pre>
 each with the size that was defined in the array.
 
