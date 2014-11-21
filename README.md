@@ -16,7 +16,8 @@ We setup an array where we define the target image's prefix, suffix, width and h
 
 So in this example, we generate 6 images.
 
-// full headers
+<pre><code>
+// full headers<br>
 var pdp_imageSizes = [<br>
     ["pdp","intro-desktop@2x","4000", "1480"],<br>
     ["pdp","intro-desktop","2000", "740"],<br>
@@ -25,6 +26,7 @@ var pdp_imageSizes = [<br>
     ["pdp","intro-phone@2x","1534", "840"],<br>
     ["pdp","intro-phone","767", "420"]<br>
 ]
+</code></pre>
 
 The original filename will be used in the target filename as well.
 
@@ -32,16 +34,11 @@ So, consider we have an original file, PRODUCT.jpg, which is 3000x2000 pixels wi
 
 The script will then generate 6 images:
 
-pdp-PRODUCTNAME-intro-desktop@2x.jpg
-
-pdp-PRODUCTNAME-intro-desktop.jpg
-
-pdp-PRODUCTNAME-intro-tablet@2x.jpg
-
-pdp-PRODUCTNAME-intro-tablet.jpg
-
-pdp-PRODUCTNAME-intro-phone@2x.jpg
-
-pdp-PRODUCTNAME-intro-phone.jpg
+* pdp-PRODUCTNAME-intro-desktop@2x.jpg
+* pdp-PRODUCTNAME-intro-desktop.jpg
+* pdp-PRODUCTNAME-intro-tablet@2x.jpg
+* pdp-PRODUCTNAME-intro-tablet.jpg
+* pdp-PRODUCTNAME-intro-phone@2x.jpg
+* pdp-PRODUCTNAME-intro-phone.jpg
 
 each with the size that was defined in the array.
