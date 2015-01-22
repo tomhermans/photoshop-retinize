@@ -44,3 +44,4 @@ The script will then generate 6 images:
 </code></pre>
 each with the size that was defined in the array.
 
+If you have any more questions regarding useage, get in touch via tomhermans.com/contact
